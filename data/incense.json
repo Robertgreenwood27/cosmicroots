@@ -1,0 +1,94 @@
+{
+  "category": "incense",
+  "category_description": "Hand-rolled incense made with natural resins, essential oils, and sustainable materials.",
+  "category_vibe": "Scent as ritual. Smoke as meditation.",
+  "products": [
+    {
+      "id": "incense001",
+      "name": "Desert Sage Bundle",
+      "price_usd": 12.00,
+      "image": "/images/incense/desert-sage.jpg",
+      "description": "Wild-harvested white sage from the Sonoran Desert, bundled with lavender and rose petals. The smoke is earthy and clarifying—perfect for cleansing space or starting fresh.",
+      "origin": "Arizona, USA",
+      "ingredients": ["white sage", "lavender", "rose petals"],
+      "burn_time": "30-45 minutes",
+      "tags": ["sage", "cleansing", "natural", "desert", "lavender"],
+      "tone_hint": "Honor the ritual aspect without making spiritual claims. This is about intention and beautiful scent."
+    },
+    {
+      "id": "incense002",
+      "name": "Palo Santo Sticks",
+      "price_usd": 15.00,
+      "image": "/images/incense/palo-santo.jpg",
+      "description": "Sustainably harvested from naturally fallen trees in Ecuador. Sweet, woody, with hints of citrus and mint. One stick can be lit multiple times—the scent lingers long after the smoke clears.",
+      "origin": "Ecuador",
+      "ingredients": ["palo santo wood"],
+      "burn_time": "10-15 minutes per use",
+      "tags": ["palo santo", "wood", "sustainable", "sweet", "South America"],
+      "tone_hint": "Emphasize the sustainable sourcing and the unique, uplifting scent. This is sacred wood treated with respect."
+    },
+    {
+      "id": "incense003",
+      "name": "Nag Champa Cones",
+      "price_usd": 8.00,
+      "image": "/images/incense/nag-champa.jpg",
+      "description": "The classic. Hand-rolled in India with champaca flower, sandalwood, and natural resins. Rich, sweet, slightly earthy. If you've ever been to a yoga studio or a good record shop, you know this smell.",
+      "origin": "Bangalore, India",
+      "ingredients": ["champaca flower", "sandalwood", "natural resins"],
+      "count": "24 cones",
+      "burn_time": "20 minutes per cone",
+      "tags": ["nag champa", "classic", "India", "sweet", "sandalwood", "cones"],
+      "tone_hint": "This is nostalgia in a box. Don't oversell it—just acknowledge that it's a beloved scent for good reason."
+    },
+    {
+      "id": "incense004",
+      "name": "Cedar & Juniper Rope",
+      "price_usd": 18.00,
+      "image": "/images/incense/cedar-juniper.jpg",
+      "description": "Twisted rope incense made by Tibetan monks. Cedar and juniper create a clean, woodsy smoke that feels grounding. Traditionally used for meditation and clearing negative energy.",
+      "origin": "Kathmandu, Nepal",
+      "ingredients": ["cedar", "juniper", "Himalayan herbs"],
+      "burn_time": "45-60 minutes",
+      "tags": ["cedar", "juniper", "rope incense", "Nepal", "meditation", "woodsy"],
+      "tone_hint": "This is ancient craft. Speak to the tradition and the pure, natural ingredients. Slow-burning, contemplative."
+    },
+    {
+      "id": "incense005",
+      "name": "Frankincense & Myrrh Resin",
+      "price_usd": 22.00,
+      "image": "/images/incense/frankincense-myrrh.jpg",
+      "description": "Pure tree resins in their natural form. Burn on charcoal for a deep, resinous smoke that's been used in ceremonies for thousands of years. The scent is warm, balsamic, timeless.",
+      "origin": "Oman & Somalia",
+      "ingredients": ["frankincense resin", "myrrh resin"],
+      "weight": "2 oz",
+      "tags": ["frankincense", "myrrh", "resin", "ancient", "ceremonial", "Middle East"],
+      "tone_hint": "This is the OG incense—biblical, ancient, powerful. Requires a charcoal disk but worth the ritual."
+    },
+    {
+      "id": "incense006",
+      "name": "Lavender Dreams Sticks",
+      "price_usd": 10.00,
+      "image": "/images/incense/lavender-dreams.jpg",
+      "description": "Hand-dipped in pure lavender essential oil. Floral without being overwhelming—calming, like a field of purple flowers on a summer evening. Perfect for winding down.",
+      "origin": "Provence, France",
+      "ingredients": ["lavender essential oil", "natural bamboo stick"],
+      "count": "20 sticks",
+      "burn_time": "30 minutes per stick",
+      "tags": ["lavender", "floral", "calming", "France", "essential oil", "sticks"],
+      "tone_hint": "Soft, gentle, dreamy. This is for quiet moments and restful nights."
+    },
+    {
+      "id": "incense007",
+      "name": "Dragon's Blood Incense",
+      "price_usd": 14.00,
+      "image": "/images/incense/dragons-blood.jpg",
+      "description": "Deep red resin from the Dracaena tree, rolled onto bamboo sticks. The scent is rich, slightly sweet, with amber and spice notes. Legendary for its protective energy (and its badass name).",
+      "origin": "Sumatra, Indonesia",
+      "ingredients": ["dragon's blood resin", "natural resins"],
+      "count": "15 sticks",
+      "burn_time": "40 minutes per stick",
+      "tags": ["dragon's blood", "resin", "Indonesia", "amber", "spice", "protective"],
+      "tone_hint": "Play up the mystique and the deep, complex scent. This isn't your everyday incense."
+    }
+  ]
+}
