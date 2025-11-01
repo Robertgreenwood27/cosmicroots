@@ -1,24 +1,18 @@
 import { NextResponse } from "next/server";
-import glassware from "../../../../data/glassware.json";
-import incense from "../../../../data/incense.json";
-import tapestries from "../../../../data/tapestries.json";
-import stickers from "../../../../data/stickers.json";
+import { readFile } from "node:fs/promises";
 
-const categoryData = {
-  glassware,
-  incense,
-  tapestries,
-  stickers
-};
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
-export async function GET(request, { params }) {
-  const { category } = params;
-  
-  const data = categoryData[category];
-  
-  if (!data) {
+const allowed = new Set(["glassware", "incense", "tapestries", "stickers"]);
+
+export async function GET(_req, { params }) {
+  const category = String(params?.category || "").toLowerCase();
+  if (!allowed.has(category)) {
     return NextResponse.json({ error: "Category not found" }, { status: 404 });
   }
-  
-  return NextResponse.json(data);
+  const fileUrl = new URL(`../../../../data/${category}.json`, import.meta.url);
+  const raw = await readFile(fileUrl, "utf-8");
+  const data = JSON.parse(raw);
+  return NextResponse.json(data, { headers: { "Cache-Control": "no-store" } });
 }
