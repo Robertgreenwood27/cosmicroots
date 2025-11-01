@@ -1,16 +1,6 @@
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import store from "../../../../data/store.json";
 
 export async function GET() {
-  try {
-    const filePath = path.join(process.cwd(), "data", "store.json");
-    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    return NextResponse.json(data);
-  } catch (error) {
-    return NextResponse.json(
-      { error: "Could not load store data" },
-      { status: 500 }
-    );
-  }
+  return NextResponse.json(store);
 }

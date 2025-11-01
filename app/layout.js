@@ -1,24 +1,12 @@
-import "./globals.css";
-
 export const metadata = {
-  title: "Cosmic Roots - Stay grounded. Stay cosmic.",
-  description:
-    "AI-native storefront for handcrafted glassware, incense, tapestries, and stickers. An experiment in AI-readable commerce.",
-  keywords: [
-    "AI-native commerce",
-    "handcrafted",
-    "artisan",
-    "glassware",
-    "incense",
-    "tapestries",
-    "stickers",
-  ],
+  title: 'Cosmic Roots v2 — AI-Readable Store',
+  description: 'Zero-frontend artisan marketplace encoded as pure JSON',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0 }}>{children}</body>
     </html>
   );
 }
