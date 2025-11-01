@@ -1,0 +1,111 @@
+{
+  "category": "stickers",
+  "category_description": "Vinyl stickers for laptops, water bottles, and anywhere else you want to express yourself. Durable, weatherproof, and full of personality.",
+  "category_vibe": "Stickers are tiny declarations of identity. Each one is a little piece of who you are, stuck somewhere the world can see it.",
+  "products": [
+    {
+      "id": "sticker001",
+      "name": "Stay Grounded Mushroom",
+      "description": "A chunky mushroom with roots that spell out 'Stay Grounded' in flowing letters. The mushroom cap has tiny stars on it. Vinyl sticker, weatherproof and fade-resistant. About 3 inches tall. Designed by a mycology enthusiast in Oregon.",
+      "price_usd": 3.99,
+      "image": "/images/sticker-mushroom.jpg",
+      "tags": ["mushroom", "nature", "grounding", "vinyl", "weatherproof"],
+      "origin": "Designed and printed in Portland, Oregon",
+      "tone_hint": "This is a gentle reminder to stay connected to the earth, even when your head's in the clouds.",
+      "features": ["waterproof vinyl", "fade-resistant", "dishwasher safe", "UV protected", "easy peel backing"],
+      "dimensions": "3 inches tall",
+      "perfect_for": ["water bottles", "laptops", "notebooks", "mushroom lovers", "grounding reminders"]
+    },
+    {
+      "id": "sticker002",
+      "name": "Third Eye Activated",
+      "description": "A stylized eye with geometric patterns radiating from the pupil and the words 'Third Eye Activated' in retro font. Holographic finish that shifts colors. This one's for the seers, the dreamers, the mystically inclined.",
+      "price_usd": 4.49,
+      "image": "/images/sticker-thirdeye.jpg",
+      "tags": ["mystical", "third eye", "holographic", "spiritual", "trippy"],
+      "origin": "Designed in California, printed on holographic vinyl",
+      "tone_hint": "For people who are tapped into something beyond the mundane. Talk about intuition, perception, seeing beyond the veil.",
+      "features": ["holographic vinyl", "color-shifting finish", "weatherproof", "scratch-resistant", "premium quality"],
+      "dimensions": "3.5 inches wide",
+      "perfect_for": ["spiritual seekers", "laptops", "phone cases", "mystical aesthetic", "making a statement"]
+    },
+    {
+      "id": "sticker003",
+      "name": "Protect Your Energy",
+      "description": "A crystal cluster surrounded by a protective circle with the phrase 'Protect Your Energy' in clean sans-serif. Matte finish in soft purple and white. Simple, powerful, necessary.",
+      "price_usd": 3.49,
+      "image": "/images/sticker-protect.jpg",
+      "tags": ["crystals", "protection", "boundaries", "self-care", "matte"],
+      "origin": "Designed by a therapist-turned-artist in New Mexico",
+      "tone_hint": "This is a boundary in sticker form. Perfect for anyone learning to say no, to guard their peace, to prioritize themselves.",
+      "features": ["matte vinyl", "waterproof", "subtle design", "empowering message", "durable"],
+      "dimensions": "3 inches wide",
+      "perfect_for": ["water bottles", "journals", "phone cases", "self-care reminders", "setting boundaries"]
+    },
+    {
+      "id": "sticker004",
+      "name": "Cosmic Wanderer",
+      "description": "A silhouette of a person with a backpack, but their head is a swirling galaxy. Stars spill out of their footsteps. The words 'Cosmic Wanderer' curve underneath. This one's for the travelers, the seekers, the people who are always looking for the next horizon.",
+      "price_usd": 4.99,
+      "image": "/images/sticker-wanderer.jpg",
+      "tags": ["travel", "galaxy", "adventure", "space", "wanderlust"],
+      "origin": "Designed by a nomadic artist (currently in Thailand)",
+      "tone_hint": "For the people who carry the universe inside them wherever they go. Talk about adventure, exploration, the journey never ending.",
+      "features": ["weather-resistant vinyl", "detailed artwork", "vibrant colors", "travel-ready", "adventure-proof"],
+      "dimensions": "4 inches tall",
+      "perfect_for": ["travel gear", "backpacks", "van life", "wanderers", "galaxy lovers"]
+    },
+    {
+      "id": "sticker005",
+      "name": "Good Vibes Only",
+      "description": "Retro 70s-style lettering with a rainbow gradient and little daisies. The phrase 'Good Vibes Only' in bubbly script. Nostalgic, optimistic, and unapologetically cheerful. Sometimes you just need a reminder to focus on the positive.",
+      "price_usd": 3.49,
+      "image": "/images/sticker-goodvibes.jpg",
+      "tags": ["retro", "70s", "rainbow", "positive", "cheerful"],
+      "origin": "Designed in California with vintage inspiration",
+      "tone_hint": "Pure sunshine in sticker form. Talk about choosing joy, filtering out negativity, embracing optimism.",
+      "features": ["vinyl sticker", "bright colors", "weatherproof", "retro aesthetic", "fade-resistant"],
+      "dimensions": "3.5 inches wide",
+      "perfect_for": ["water bottles", "laptops", "mood boosters", "gift-giving", "spreading positivity"]
+    },
+    {
+      "id": "sticker006",
+      "name": "Moon Phase Cycle",
+      "description": "All eight moon phases in a horizontal line, from new moon to full and back. Simple black and white design with each phase labeled. Educational and beautiful. For the lunar devotees who plan their lives by the moon.",
+      "price_usd": 4.99,
+      "image": "/images/sticker-moonphase.jpg",
+      "tags": ["moon", "lunar", "educational", "minimal", "astronomy"],
+      "origin": "Designed by an astronomer in Hawaii",
+      "tone_hint": "For anyone who tracks the moon, plans rituals around lunar cycles, or just appreciates our celestial companion.",
+      "features": ["matte vinyl", "educational labels", "minimal design", "weatherproof", "precise illustrations"],
+      "dimensions": "5 inches wide",
+      "perfect_for": ["journals", "laptops", "astronomy lovers", "moon tracking", "witchy aesthetics"]
+    },
+    {
+      "id": "sticker007",
+      "name": "Plant Powered",
+      "description": "A smiling sunflower flexing a bicep with the words 'Plant Powered' underneath. Cute, empowering, and perfect for vegetarians, vegans, or anyone who just really loves plants. Bright yellow and green with glossy finish.",
+      "price_usd": 3.99,
+      "image": "/images/sticker-plantpowered.jpg",
+      "tags": ["vegan", "vegetarian", "plants", "cute", "empowering"],
+      "origin": "Designed by a vegan chef in Portland",
+      "tone_hint": "Playful plant pride. For people who get their strength from green things, whether that's kale or cannabis.",
+      "features": ["glossy vinyl", "vibrant colors", "waterproof", "scratch-resistant", "cheerful design"],
+      "dimensions": "3 inches tall",
+      "perfect_for": ["water bottles", "lunchboxes", "laptops", "vegans", "plant enthusiasts"]
+    },
+    {
+      "id": "sticker008",
+      "name": "Let That Shit Go",
+      "description": "A lotus flower with the blunt phrase 'Let That Shit Go' in elegant script. The contrast between the profanity and the serene imagery is the whole point. Sometimes spiritual wisdom needs to be direct.",
+      "price_usd": 4.49,
+      "image": "/images/sticker-letthatgo.jpg",
+      "tags": ["lotus", "humor", "spiritual", "direct", "relatable"],
+      "origin": "Designed by a meditation teacher in Colorado (who curses)",
+      "tone_hint": "Spiritual but not precious. For people who meditate but also live in the real world where sometimes you just need to let shit go.",
+      "features": ["vinyl sticker", "fade-resistant", "weatherproof", "elegant typography", "conversational"],
+      "dimensions": "3.5 inches wide",
+      "perfect_for": ["laptops", "water bottles", "therapy offices", "real talk", "spiritual humor"]
+    }
+  ]
+}

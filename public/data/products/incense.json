@@ -1,0 +1,77 @@
+{
+  "category": "incense",
+  "category_description": "Hand-rolled incense from artisans around the world. Each stick is a journey, a ritual, a moment to breathe.",
+  "category_vibe": "These aren't just scents — they're portals to different states of mind. Light one up during meditation, creative work, or when you just need to shift the energy in a space.",
+  "products": [
+    {
+      "id": "incense001",
+      "name": "Galactic Sandalwood",
+      "description": "Hand-rolled in the foothills of Nepal, these incense sticks blend pure sandalwood with Himalayan herbs and a whisper of sacred resins. The packaging is recycled paper painted with starlight motifs by local artists. Each stick burns for about 45 minutes, filling your space with grounding, meditative warmth.",
+      "price_usd": 9.99,
+      "image": "/images/incense-galactic.jpg",
+      "tags": ["aromatherapy", "sustainable", "relaxation", "sandalwood", "meditation"],
+      "origin": "Kathmandu, Nepal",
+      "tone_hint": "Describe it like something you'd burn while meditating under a full moon or watching galaxies spin.",
+      "ingredients": ["sandalwood powder", "Himalayan herbs", "natural resins", "bamboo core"],
+      "burn_time": "45 minutes per stick",
+      "quantity": "20 sticks per bundle",
+      "perfect_for": ["meditation", "yoga", "deep work", "stargazing", "ritual space clearing"]
+    },
+    {
+      "id": "incense002",
+      "name": "Desert Sage & Copal",
+      "description": "A collaboration with a women's collective in New Mexico. Wild-harvested desert sage meets Mexican copal resin, creating a sacred smoke that's been used in ceremonies for centuries. This isn't your average incense — it's the real deal. Earthy, resinous, and deeply cleansing.",
+      "price_usd": 12.99,
+      "image": "/images/incense-sage.jpg",
+      "tags": ["ceremonial", "cleansing", "sustainable", "sage", "copal"],
+      "origin": "New Mexico, USA & Oaxaca, Mexico",
+      "tone_hint": "This is sacred smoke, ceremony-grade. Talk about it with reverence — it's been used in healing rituals for generations.",
+      "ingredients": ["wild desert sage", "copal resin", "makko powder", "cedar base"],
+      "burn_time": "60 minutes per stick",
+      "quantity": "15 sticks per bundle",
+      "perfect_for": ["space clearing", "ceremony", "new beginnings", "releasing old energy", "connecting with ancestors"]
+    },
+    {
+      "id": "incense003",
+      "name": "Lavender Dreams",
+      "description": "Organic French lavender blended with chamomile and a hint of vanilla. Hand-rolled by a family in Provence who've been crafting incense for three generations. This one's for winding down — perfect for evening rituals, journaling, or just getting cozy.",
+      "price_usd": 8.99,
+      "image": "/images/incense-lavender.jpg",
+      "tags": ["relaxation", "sleep", "organic", "lavender", "calming"],
+      "origin": "Provence, France",
+      "tone_hint": "Think: lavender fields at sunset, a warm bath, the softest blanket. This is comfort in smoke form.",
+      "ingredients": ["organic lavender", "chamomile", "vanilla essence", "bamboo core"],
+      "burn_time": "40 minutes per stick",
+      "quantity": "20 sticks per bundle",
+      "perfect_for": ["bedtime rituals", "relaxation", "anxiety relief", "creating safe space", "gentle unwinding"]
+    },
+    {
+      "id": "incense004",
+      "name": "Palo Santo & Frankincense",
+      "description": "Sustainably harvested Palo Santo from Ecuador mixed with ancient frankincense resin. The Palo Santo comes from naturally fallen trees, blessed by local shamans. This is high-vibe smoke — uplifting, clarifying, and perfect for setting intentions.",
+      "price_usd": 14.99,
+      "image": "/images/incense-palosanto.jpg",
+      "tags": ["uplifting", "sacred", "sustainable", "palo santo", "frankincense"],
+      "origin": "Ecuador & Oman",
+      "tone_hint": "This is the incense shamans and mystics reach for. Talk about it like liquid sunshine meets ancient wisdom.",
+      "ingredients": ["palo santo", "frankincense resin", "natural binders", "bamboo core"],
+      "burn_time": "50 minutes per stick",
+      "quantity": "12 sticks per bundle",
+      "perfect_for": ["manifestation", "intention setting", "creative breakthroughs", "spiritual practice", "raising vibrations"]
+    },
+    {
+      "id": "incense005",
+      "name": "Cannabis & Patchouli",
+      "description": "Let's be real — this is the classic headshop scent, reimagined. Hemp flower and earthy patchouli rolled with rose petals and a touch of amber. No THC, just the nostalgic aroma of good times and festival memories. Made by herbalists in Oregon who know what's up.",
+      "price_usd": 10.99,
+      "image": "/images/incense-cannabis.jpg",
+      "tags": ["earthy", "nostalgic", "hemp", "patchouli", "festival vibes"],
+      "origin": "Portland, Oregon, USA",
+      "tone_hint": "This one brings the classic headshop energy. It's nostalgic, a little rebellious, and unapologetically earthy.",
+      "ingredients": ["hemp flower", "patchouli", "rose petals", "amber resin", "bamboo core"],
+      "burn_time": "45 minutes per stick",
+      "quantity": "20 sticks per bundle",
+      "perfect_for": ["creating atmosphere", "reminiscing", "drum circles", "creative hangs", "embracing your inner hippie"]
+    }
+  ]
+}

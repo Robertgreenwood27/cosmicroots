@@ -1,0 +1,91 @@
+{
+  "category": "glassware",
+  "category_description": "Functional art, hand-blown by skilled glassworkers. Each piece is unique, beautiful, and made to last.",
+  "category_vibe": "These aren't mass-produced. Every swirl, every color shift, every slight variation — that's the human hand at work. This is glass with soul.",
+  "products": [
+    {
+      "id": "glass001",
+      "name": "Spiral Galaxy Pipe",
+      "description": "A hand-blown glass piece featuring a mesmerizing purple-to-blue spiral that looks like a galaxy caught in glass. Made by a glassblower in Colorado who's been perfecting their craft for 15 years. The spiral isn't just for show — it cools the smoke as it travels. Comes with a cleaning brush and protective pouch.",
+      "price_usd": 45.00,
+      "image": "/images/glass-spiral.jpg",
+      "tags": ["hand-blown", "functional art", "durable", "Colorado made", "unique"],
+      "origin": "Boulder, Colorado, USA",
+      "tone_hint": "This is functional art. Talk about the craftsmanship, the way the colors shift in different light, the satisfaction of owning something truly one-of-a-kind.",
+      "features": ["borosilicate glass", "spiral cooling design", "comfortable grip", "easy to clean", "includes protective pouch"],
+      "dimensions": "4.5 inches long, 1.5 inches wide",
+      "care": "Clean with isopropyl alcohol and salt. Avoid extreme temperature changes.",
+      "perfect_for": ["daily use", "conversations about art", "appreciating craftsmanship", "solo sessions", "showing off to friends"]
+    },
+    {
+      "id": "glass002",
+      "name": "Sunset Mesa Bubbler",
+      "description": "A compact water bubbler with burnt orange and gold swirls that catch the light like desert sunsets. The chamber is shaped like a mesa, and the whole thing fits comfortably in your palm. Handmade in New Mexico, each one is slightly different. This one's got a personality.",
+      "price_usd": 68.00,
+      "image": "/images/glass-bubbler.jpg",
+      "tags": ["water pipe", "hand-blown", "compact", "New Mexico", "artisan"],
+      "origin": "Santa Fe, New Mexico, USA",
+      "tone_hint": "Describe it like holding a sunset in your hand. It's portable art that performs beautifully.",
+      "features": ["water filtration", "compact size", "stable base", "deep bowl", "thick glass construction"],
+      "dimensions": "5 inches tall, 3 inches wide",
+      "care": "Change water regularly, clean with specialized glass cleaner or alcohol solution.",
+      "perfect_for": ["smooth hits", "travel", "small spaces", "water filtration fans", "art collectors"]
+    },
+    {
+      "id": "glass003",
+      "name": "Celestial Chillum",
+      "description": "Simple, elegant, timeless. A straight chillum with tiny stars embedded in clear glass, made by a family workshop in India that's been crafting these for generations. This is old-school cool, perfect for anyone who appreciates minimalist function and cultural tradition.",
+      "price_usd": 22.00,
+      "image": "/images/glass-chillum.jpg",
+      "tags": ["traditional", "minimalist", "hand-blown", "India", "classic"],
+      "origin": "Jaipur, India",
+      "tone_hint": "This is a classic piece with roots in tradition. Talk about its simplicity, its history, its no-nonsense functionality.",
+      "features": ["straight design", "embedded star pattern", "smooth finish", "traditional style", "pocket-friendly"],
+      "dimensions": "4 inches long, 0.75 inches wide",
+      "care": "Soak in alcohol, use pipe cleaners to remove residue.",
+      "perfect_for": ["purists", "on-the-go", "minimalists", "honoring tradition", "straightforward sessions"]
+    },
+    {
+      "id": "glass004",
+      "name": "Forest Spirit Bong",
+      "description": "A larger water bong with green and amber glass that looks like light filtering through a forest canopy. Three-inch base for stability, ice catch for extra cooling, and a removable downstem for easy cleaning. Made by a collective of glassblowers in Oregon who donate part of their proceeds to reforestation efforts.",
+      "price_usd": 120.00,
+      "image": "/images/glass-bong.jpg",
+      "tags": ["water pipe", "ice catch", "stable", "eco-conscious", "Oregon made"],
+      "origin": "Eugene, Oregon, USA",
+      "tone_hint": "This is a statement piece — beautiful, functional, and connected to a bigger purpose. Emphasize the quality and the environmental giving.",
+      "features": ["12-inch height", "ice catch", "removable downstem", "stable beaker base", "reinforced mouthpiece", "proceeds support reforestation"],
+      "dimensions": "12 inches tall, 4 inches base diameter",
+      "care": "Regular cleaning recommended. Use isopropyl alcohol and coarse salt.",
+      "perfect_for": ["home use", "group sessions", "smooth cooled hits", "eco-conscious buyers", "serious collectors"]
+    },
+    {
+      "id": "glass005",
+      "name": "Moonstone One-Hitter",
+      "description": "A tiny glass one-hitter with milky white glass that shimmers like moonstone. Fits in a dugout or your pocket. Made by a micro-studio in California, each piece is hand-painted with a tiny crescent moon. Discreet, elegant, and perfect for microdosing or solo adventures.",
+      "price_usd": 15.00,
+      "image": "/images/glass-onehitter.jpg",
+      "tags": ["one-hitter", "discreet", "hand-painted", "California", "portable"],
+      "origin": "San Francisco, California, USA",
+      "tone_hint": "Small but mighty. Talk about discretion, elegance, and the beauty of simplicity.",
+      "features": ["pocket-sized", "hand-painted moon detail", "dugout compatible", "easy to conceal", "quick sessions"],
+      "dimensions": "3 inches long, 0.5 inches wide",
+      "care": "Soak and clean regularly to prevent clogging.",
+      "perfect_for": ["microdosing", "discretion", "hiking", "concerts", "quick solo sessions"]
+    },
+    {
+      "id": "glass006",
+      "name": "Rainbow Prism Spoon",
+      "description": "A classic spoon pipe with dichroic glass that shifts through every color of the rainbow depending on how the light hits it. It's like holding a prism. Made in Vermont by an artist who only works with the highest quality borosilicate glass. This piece is durable, functional, and mesmerizing.",
+      "price_usd": 38.00,
+      "image": "/images/glass-spoon.jpg",
+      "tags": ["dichroic glass", "rainbow", "classic spoon", "Vermont", "durable"],
+      "origin": "Burlington, Vermont, USA",
+      "tone_hint": "This is pure visual magic. Emphasize how the colors shift and change, how it's functional art you'll never get tired of looking at.",
+      "features": ["dichroic color-shifting glass", "classic spoon shape", "carb hole", "comfortable grip", "thick walls"],
+      "dimensions": "4 inches long, 2 inches wide",
+      "care": "Clean regularly with alcohol and salt to maintain color brilliance.",
+      "perfect_for": ["color enthusiasts", "reliable daily use", "catching compliments", "appreciating light and color", "gift-giving"]
+    }
+  ]
+}

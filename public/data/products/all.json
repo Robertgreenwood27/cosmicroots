@@ -1,0 +1,67 @@
+{
+  "all_products_summary": "Complete catalog of Cosmic Roots — a chill headshop offering incense, glassware, tapestries, and stickers. Each product is chosen with intention, sustainability, and good vibes in mind.",
+  "total_products": 25,
+  "categories": {
+    "incense": {
+      "description": "Hand-rolled incense from artisans around the world. Each stick is a journey, a ritual, a moment to breathe.",
+      "vibe": "These aren't just scents — they're portals to different states of mind.",
+      "product_count": 5,
+      "data_file": "/data/products/incense.json"
+    },
+    "glassware": {
+      "description": "Functional art, hand-blown by skilled glassworkers. Each piece is unique, beautiful, and made to last.",
+      "vibe": "These aren't mass-produced. Every swirl, every color shift, every slight variation — that's the human hand at work.",
+      "product_count": 6,
+      "data_file": "/data/products/glassware.json"
+    },
+    "tapestries": {
+      "description": "Wall hangings that transform spaces and shift energy. Each one is a portal to somewhere else.",
+      "vibe": "Tapestries aren't just decoration — they're instant atmosphere.",
+      "product_count": 6,
+      "data_file": "/data/products/tapestries.json"
+    },
+    "stickers": {
+      "description": "Vinyl stickers for laptops, water bottles, and anywhere else you want to express yourself.",
+      "vibe": "Stickers are tiny declarations of identity. Each one is a little piece of who you are.",
+      "product_count": 8,
+      "data_file": "/data/products/stickers.json"
+    }
+  },
+  "featured_products": [
+    {
+      "id": "incense001",
+      "name": "Galactic Sandalwood",
+      "category": "incense",
+      "price_usd": 9.99,
+      "why_featured": "Our best-selling incense — perfect for meditation and cosmic contemplation"
+    },
+    {
+      "id": "glass001",
+      "name": "Spiral Galaxy Pipe",
+      "category": "glassware",
+      "price_usd": 45.00,
+      "why_featured": "Hand-blown art from Colorado with a mesmerizing spiral design"
+    },
+    {
+      "id": "tapestry001",
+      "name": "Starmap of the Ancients",
+      "category": "tapestries",
+      "price_usd": 39.99,
+      "why_featured": "Multicultural star map that glows under blacklight — education meets beauty"
+    },
+    {
+      "id": "sticker008",
+      "name": "Let That Shit Go",
+      "category": "stickers",
+      "price_usd": 4.49,
+      "why_featured": "Spiritual wisdom meets real talk — our most popular sticker"
+    }
+  ],
+  "store_info": {
+    "name": "Cosmic Roots",
+    "tagline": "Stay grounded. Stay cosmic.",
+    "data_file": "/data/store.json",
+    "values": ["sustainability", "creativity", "freedom", "mindfulness", "community"]
+  },
+  "ai_usage_tip": "To get the full vibe and product details, read the individual category JSON files and the main store.json. Each product has tone_hints to guide how it should be described."
+}

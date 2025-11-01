@@ -1,0 +1,91 @@
+{
+  "category": "tapestries",
+  "category_description": "Wall hangings that transform spaces and shift energy. Each one is a portal to somewhere else.",
+  "category_vibe": "Tapestries aren't just decoration — they're instant atmosphere. Hang one up and suddenly your room feels like a meditation temple, a desert oasis, or a cosmic observatory.",
+  "products": [
+    {
+      "id": "tapestry001",
+      "name": "Starmap of the Ancients",
+      "description": "A deep indigo tapestry printed with a hand-drawn star map showing constellations as ancient cultures saw them — not just the Greek names we know, but Aboriginal, Chinese, and Arabic star stories too. It glows softly under blacklight. Large enough to cover a wall or use as a ceiling canopy.",
+      "price_usd": 39.99,
+      "image": "/images/tapestry-starmap.jpg",
+      "tags": ["celestial", "educational", "blacklight reactive", "large", "multicultural"],
+      "origin": "Designed in California, printed on organic cotton in India",
+      "tone_hint": "This is a cosmic classroom on your wall. Talk about how it connects different cultures' relationships with the night sky.",
+      "features": ["blacklight reactive ink", "organic cotton", "reinforced edges", "multiple hanging loops", "machine washable"],
+      "dimensions": "90 x 60 inches",
+      "material": "100% organic cotton",
+      "perfect_for": ["stargazers", "meditation spaces", "learning constellations", "blacklight vibes", "cultural appreciation"]
+    },
+    {
+      "id": "tapestry002",
+      "name": "Desert Mandala",
+      "description": "A circular mandala in warm desert tones — burnt orange, terracotta, sage, and sand. The pattern radiates from a central eye, drawing you inward. Hand-printed by artisans in Rajasthan using traditional block-printing techniques that have been passed down for centuries.",
+      "price_usd": 44.99,
+      "image": "/images/tapestry-mandala.jpg",
+      "tags": ["mandala", "hand-printed", "traditional", "meditation", "Rajasthan"],
+      "origin": "Jaipur, Rajasthan, India",
+      "tone_hint": "This is meditation made visual. Talk about the centering effect of the mandala, the craftsmanship of block printing, the warmth of the colors.",
+      "features": ["hand block-printed", "vegetable dyes", "cotton blend", "symmetrical pattern", "hanging tabs included"],
+      "dimensions": "84 x 84 inches (square)",
+      "material": "Cotton blend with natural dyes",
+      "perfect_for": ["meditation corners", "yoga studios", "creating focal points", "grounding energy", "supporting traditional crafts"]
+    },
+    {
+      "id": "tapestry003",
+      "name": "Mushroom Forest Portal",
+      "description": "An otherworldly forest scene filled with oversized mushrooms, luminescent moss, and hidden fairy doors. The colors are rich and saturated — deep greens, purples, and bioluminescent blues. It's like looking into another dimension. Perfect for anyone who loves fantasy, nature, or just wants their room to feel magical.",
+      "price_usd": 36.99,
+      "image": "/images/tapestry-mushroom.jpg",
+      "tags": ["fantasy", "nature", "psychedelic", "whimsical", "vibrant"],
+      "origin": "Designed by a digital artist in Portland, printed on recycled polyester",
+      "tone_hint": "This is pure escapism. Talk about the sense of wonder, the portal-to-another-world vibe, the joy of surrounding yourself with magic.",
+      "features": ["vivid colors", "recycled polyester", "lightweight", "wrinkle-resistant", "easy hanging"],
+      "dimensions": "80 x 60 inches",
+      "material": "Recycled polyester",
+      "perfect_for": ["fantasy lovers", "creating immersive spaces", "dorm rooms", "festival decor", "playful energy"]
+    },
+    {
+      "id": "tapestry004",
+      "name": "Sacred Geometry Grid",
+      "description": "Black background with metallic gold sacred geometry — the Flower of Life, Metatron's Cube, and interlocking patterns that seem to pulse with mathematical harmony. This one's for the people who see the code underlying reality. Printed with metallic ink that catches light beautifully.",
+      "price_usd": 42.99,
+      "image": "/images/tapestry-geometry.jpg",
+      "tags": ["sacred geometry", "metallic", "mathematical", "modern", "striking"],
+      "origin": "Designed in Colorado, printed on organic cotton in USA",
+      "tone_hint": "This is the universe's blueprint on your wall. Talk about sacred geometry as the language of creation, the visual satisfaction of perfect symmetry.",
+      "features": ["metallic gold ink", "organic cotton", "precise geometric patterns", "light-catching finish", "durable construction"],
+      "dimensions": "72 x 48 inches",
+      "material": "Organic cotton with metallic ink",
+      "perfect_for": ["geometry enthusiasts", "modern spiritual spaces", "focus and meditation", "visual learners", "mathematical minds"]
+    },
+    {
+      "id": "tapestry005",
+      "name": "Ocean Wisdom",
+      "description": "An underwater scene with a wise old sea turtle swimming through shafts of sunlight, surrounded by schools of fish and swaying kelp. The colors are peaceful blues and greens. This one brings the ocean's calm energy into your space. A portion of proceeds goes to ocean conservation efforts.",
+      "price_usd": 38.99,
+      "image": "/images/tapestry-ocean.jpg",
+      "tags": ["ocean", "sea turtle", "peaceful", "conservation", "calming"],
+      "origin": "Designed in Hawaii, printed on sustainable fabric",
+      "tone_hint": "This brings ocean energy inland. Talk about the calming effect of water imagery, the wisdom of ancient creatures, the connection to conservation.",
+      "features": ["eco-friendly printing", "soft fabric", "ocean conservation donation", "fade-resistant", "calming color palette"],
+      "dimensions": "88 x 60 inches",
+      "material": "Sustainable fabric blend",
+      "perfect_for": ["ocean lovers", "calming spaces", "supporting conservation", "meditation", "bringing nature indoors"]
+    },
+    {
+      "id": "tapestry006",
+      "name": "Vintage Zodiac Wheel",
+      "description": "A vintage-style zodiac wheel with all twelve signs illustrated in an Art Nouveau style. Muted earth tones and celestial symbols create a mystical, timeless feel. Hand-drawn by an astrologer and artist in New Orleans who poured years of study into every detail.",
+      "price_usd": 46.99,
+      "image": "/images/tapestry-zodiac.jpg",
+      "tags": ["astrology", "zodiac", "vintage style", "mystical", "educational"],
+      "origin": "Designed in New Orleans, printed on organic cotton",
+      "tone_hint": "This is astrology as art. Perfect for anyone who takes their star chart seriously or just loves the aesthetic of cosmic wisdom.",
+      "features": ["all 12 zodiac signs", "Art Nouveau styling", "organic cotton", "detailed illustrations", "vintage color palette"],
+      "dimensions": "80 x 80 inches (square)",
+      "material": "100% organic cotton",
+      "perfect_for": ["astrology enthusiasts", "vintage aesthetic lovers", "learning the zodiac", "mystical decor", "conversation starters"]
+    }
+  ]
+}
