@@ -1,16 +1,16 @@
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import glassware from "../../../../data/glassware.json";
+import incense from "../../../../data/incense.json";
+import tapestries from "../../../../data/tapestries.json";
+import stickers from "../../../../data/stickers.json";
 
 export async function GET() {
-  const dataDir = path.join(process.cwd(), "data");
-  const files = fs.readdirSync(dataDir).filter(f => f.endsWith(".json") && f !== "store.json" && f !== "sitemap.json");
-
-  const products = files.flatMap(file => {
-    const content = JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
-    return (content.products || []).map(p => ({
+  const categories = [glassware, incense, tapestries, stickers];
+  
+  const products = categories.flatMap(category => {
+    return (category.products || []).map(p => ({
       ...p,
-      category: content.category
+      category: category.category
     }));
   });
 

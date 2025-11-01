@@ -1,15 +1,24 @@
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import glassware from "../../../../data/glassware.json";
+import incense from "../../../../data/incense.json";
+import tapestries from "../../../../data/tapestries.json";
+import stickers from "../../../../data/stickers.json";
+
+const categoryData = {
+  glassware,
+  incense,
+  tapestries,
+  stickers
+};
 
 export async function GET(request, { params }) {
   const { category } = params;
-  const filePath = path.join(process.cwd(), "data", `${category}.json`);
   
-  try {
-    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    return NextResponse.json(data);
-  } catch {
+  const data = categoryData[category];
+  
+  if (!data) {
     return NextResponse.json({ error: "Category not found" }, { status: 404 });
   }
+  
+  return NextResponse.json(data);
 }
