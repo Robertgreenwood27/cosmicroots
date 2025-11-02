@@ -1,21 +1,18 @@
 import { NextResponse } from "next/server";
-import glassware from "@/data/glassware.json";
-import incense from "@/data/incense.json";
-import tapestries from "@/data/tapestries.json";
-import stickers from "@/data/stickers.json";
+import { readFile } from "node:fs/promises";
 
-export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-
-const MAP = {
-  glassware, incense, tapestries, stickers
-};
+export const runtime = "nodejs";
 
 export async function GET(_req, { params }) {
-  const key = String(params?.category || "").toLowerCase();
-  const data = MAP[key];
-  if (!data) {
+  const category = params.category?.toLowerCase();
+  const allowed = new Set(["glassware", "incense"]);
+
+  if (!allowed.has(category)) {
     return NextResponse.json({ error: "Category not found" }, { status: 404 });
   }
-  return NextResponse.json(data, { headers: { "Cache-Control": "no-store" } });
+
+  const fileUrl = new URL(`../../../../../data/${category}.json`, import.meta.url);
+  const file = await readFile(fileUrl, "utf-8");
+  return NextResponse.json(JSON.parse(file));
 }

@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
-import store from "@/data/store.json";
-
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
+import { readFile } from "node:fs/promises";
 
 export async function GET() {
-  return NextResponse.json(store, { headers: { "Cache-Control": "no-store" } });
+  const file = await readFile(new URL("../../../../../data/store.json", import.meta.url), "utf-8");
+  return NextResponse.json(JSON.parse(file));
 }

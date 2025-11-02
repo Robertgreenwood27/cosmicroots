@@ -1,8 +1,9 @@
 {
-  "name": "cosmic-roots-v2",
+  "name": "cosmic-roots",
   "version": "1.0.0",
+  "description": "An AI-readable headshop — pure API with personality and structured JSON endpoints.",
+  "private": true,
   "type": "module",
-  "description": "AI-readable artisan marketplace - zero frontend edition",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,11 +11,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
-  "engines": {
-    "node": ">=18.0.0"
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3"
   }
 }

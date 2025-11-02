@@ -1,71 +1,11 @@
 {
   "category": "incense",
-  "category_description": "Hand-rolled, ethically sourced incense for meditation, clearing, and sensory journeys.",
   "products": [
     {
-      "id": "incense001",
-      "name": "Palo Santo Sticks",
-      "price_usd": 12,
-      "image": "/images/incense/palo-santo.jpg",
-      "description": "Wild-harvested from fallen trees in Ecuador. Burns with sweet, woody smoke that clears spaces and centers the mind.",
-      "origin": "Ecuador",
-      "tags": ["sustainably sourced", "clearing", "woody"],
-      "tone_hint": "Reverent and grounding — emphasize the sacred origins.",
-      "materials": ["palo santo wood"],
-      "quantity": "5 sticks per bundle",
-      "in_stock": true
-    },
-    {
-      "id": "incense002",
-      "name": "Nag Champa Cones",
-      "price_usd": 8,
-      "image": "/images/incense/nag-champa.jpg",
-      "description": "The classic temple scent — floral, earthy, and slightly sweet. Hand-rolled in Bangalore.",
-      "origin": "Bangalore, India",
-      "tags": ["hand-rolled", "floral", "traditional"],
-      "tone_hint": "Timeless and meditative — a beloved staple.",
-      "materials": ["sandalwood", "champaca flower", "resin"],
-      "quantity": "20 cones per box",
-      "in_stock": true
-    },
-    {
-      "id": "incense003",
-      "name": "Sage & Cedar Bundle",
-      "price_usd": 15,
-      "image": "/images/incense/sage-cedar.jpg",
-      "description": "White sage and juniper cedar wrapped in cotton twine. Purifies with intention.",
-      "origin": "New Mexico, USA",
-      "tags": ["smudge", "clearing", "ceremonial"],
-      "tone_hint": "Ceremonial and intentional — a tool for ritual.",
-      "materials": ["white sage", "juniper cedar", "cotton twine"],
-      "quantity": "1 bundle, 7 inches",
-      "in_stock": true
-    },
-    {
-      "id": "incense004",
-      "name": "Lavender Dream Sticks",
-      "price_usd": 10,
-      "image": "/images/incense/lavender-dream.jpg",
-      "description": "French lavender and chamomile on bamboo. Soft, calming, perfect for evening wind-down.",
-      "origin": "Provence, France",
-      "tags": ["calming", "floral", "evening"],
-      "tone_hint": "Soft and soothing — invoke restful twilight.",
-      "materials": ["lavender", "chamomile", "bamboo"],
-      "quantity": "15 sticks per pack",
-      "in_stock": true
-    },
-    {
-      "id": "incense005",
-      "name": "Dragon's Blood Resin",
-      "price_usd": 18,
-      "image": "/images/incense/dragons-blood.jpg",
-      "description": "Deep red resin from Sumatra. Rich, ancient, and protective — best burned on charcoal.",
-      "origin": "Sumatra, Indonesia",
-      "tags": ["resin", "protective", "ancient"],
-      "tone_hint": "Mystical and powerful — a scent for deep work.",
-      "materials": ["dracaena resin"],
-      "quantity": "2 oz jar",
-      "in_stock": false
+      "id": "lavender-dream",
+      "name": "Lavender Dream",
+      "price": 6,
+      "description": "A soothing blend of lavender and cedar to calm the cosmic mind."
     }
   ]
 }

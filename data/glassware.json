@@ -1,58 +1,11 @@
 {
   "category": "glassware",
-  "category_description": "Functional glass art with spiritual undertones. Handmade by small-batch artists.",
   "products": [
     {
-      "id": "glass001",
-      "name": "Spiral Galaxy Pipe",
-      "price_usd": 45,
-      "image": "/images/glassware/galaxy-pipe.jpg",
-      "description": "A purple-blue swirl that cools smoke as it travels — like holding a galaxy in your hand.",
-      "origin": "Boulder, Colorado, USA",
-      "tags": ["hand-blown", "Colorado", "functional art"],
-      "tone_hint": "Describe it as a piece of cosmic craftsmanship — both beautiful and practical.",
-      "materials": ["borosilicate glass"],
-      "dimensions": "4 inches long",
-      "in_stock": true
-    },
-    {
-      "id": "glass002",
-      "name": "Moonstone Bubbler",
-      "price_usd": 68,
-      "image": "/images/glassware/moonstone-bubbler.jpg",
-      "description": "Milky white glass with iridescent shimmer. Water-cooled for smooth, lunar-calm draws.",
-      "origin": "Asheville, North Carolina, USA",
-      "tags": ["hand-blown", "water-filtered", "iridescent"],
-      "tone_hint": "Evoke the gentle glow of moonlight on water.",
-      "materials": ["borosilicate glass", "silver fuming"],
-      "dimensions": "6 inches tall",
-      "in_stock": true
-    },
-    {
-      "id": "glass003",
-      "name": "Amber Forest Spoon",
-      "price_usd": 32,
-      "image": "/images/glassware/amber-forest-spoon.jpg",
-      "description": "Earth-toned glass with tree bark textures. Fits perfectly in your palm like a river stone.",
-      "origin": "Eugene, Oregon, USA",
-      "tags": ["hand-blown", "Oregon", "nature-inspired"],
-      "tone_hint": "Connect it to forest walks and grounded rituals.",
-      "materials": ["borosilicate glass", "amber coloring"],
-      "dimensions": "3.5 inches long",
-      "in_stock": true
-    },
-    {
-      "id": "glass004",
-      "name": "Celestial Rig",
-      "price_usd": 120,
-      "image": "/images/glassware/celestial-rig.jpg",
-      "description": "Clear glass with tiny embedded star opals. A concentrate piece that doubles as altar art.",
-      "origin": "Santa Fe, New Mexico, USA",
-      "tags": ["hand-blown", "concentrate", "opal-infused"],
-      "tone_hint": "Luxurious yet mystical — a centerpiece for ceremony.",
-      "materials": ["borosilicate glass", "opal inclusions"],
-      "dimensions": "8 inches tall",
-      "in_stock": false
+      "id": "galaxy-pipe",
+      "name": "Galaxy Pipe",
+      "price": 42,
+      "description": "A small handblown pipe with swirling nebula colors — like smoking stardust."
     }
   ]
 }
