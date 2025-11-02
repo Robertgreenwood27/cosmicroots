@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { readFile } from "node:fs/promises";
+import path from "node:path";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -12,7 +13,7 @@ export async function GET(_req, { params }) {
     return NextResponse.json({ error: "Category not found" }, { status: 404 });
   }
 
-  const fileUrl = new URL(`../../../data/${category}.json`, import.meta.url);
-  const file = await readFile(fileUrl, "utf-8");
+  const filePath = path.join(process.cwd(), "data", `${category}.json`);
+  const file = await readFile(filePath, "utf-8");
   return NextResponse.json(JSON.parse(file));
 }
