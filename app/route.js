@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export async function GET(req) {
   const accept = req.headers.get("accept") || "";
 
-  // The full JSON data (same as before)
+  // All your data lives here
   const data = {
     store: {
       name: "Cosmic Roots",
@@ -70,7 +70,7 @@ export async function GET(req) {
     }
   };
 
-  // If the client prefers HTML (like a browser), show a background image or landing page
+  // If browser request → show fullscreen image
   if (accept.includes("text/html")) {
     const html = `
       <!DOCTYPE html>
@@ -78,30 +78,22 @@ export async function GET(req) {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cosmic Roots 🌿</title>
+        <title>Cosmic Roots</title>
         <style>
           html, body {
             margin: 0;
             padding: 0;
             height: 100%;
-            background: url('/images/background.jpg') center center / cover no-repeat fixed;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: sans-serif;
-            color: white;
-            text-shadow: 0 0 20px rgba(0,0,0,0.7);
+            width: 100%;
+            overflow: hidden;
+            background: black;
           }
-          h1 {
-            background: rgba(0, 0, 0, 0.4);
-            padding: 1em 2em;
-            border-radius: 12px;
+          body {
+            background: url('/images/cosmic-roots.png') center center / cover no-repeat fixed;
           }
         </style>
       </head>
-      <body>
-        <h1>🌌 Cosmic Roots</h1>
-      </body>
+      <body></body>
       </html>
     `;
     return new NextResponse(html, {
@@ -109,6 +101,6 @@ export async function GET(req) {
     });
   }
 
-  // Otherwise, default to JSON
+  // If API request → return JSON
   return NextResponse.json(data);
 }
