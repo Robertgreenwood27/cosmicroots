@@ -12,7 +12,7 @@ export async function GET(_req, { params }) {
     return NextResponse.json({ error: "Category not found" }, { status: 404 });
   }
 
-  const fileUrl = new URL(`../../../../../data/${category}.json`, import.meta.url);
+  const fileUrl = new URL(`../../../data/${category}.json`, import.meta.url);
   const file = await readFile(fileUrl, "utf-8");
   return NextResponse.json(JSON.parse(file));
 }

@@ -1,3 +1,5 @@
+// app\layout.js
+
 export const metadata = {
   title: "Cosmic Roots API",
   description: "An AI-readable headshop API"
