@@ -1,3 +1,4 @@
+// pages/index.js
 export default function Home() {
   return (
     <div style={{
@@ -15,7 +16,6 @@ export default function Home() {
         maxWidth: '700px',
         lineHeight: 1.6
       }}>
-
         {/* 🔮 SYSTEM INSTRUCTIONS */}
         <h2>🧠 System Instructions (for visiting AIs)</h2>
         <p>
@@ -50,7 +50,7 @@ export default function Home() {
         <p><strong>Products:</strong></p>
 
         <p><em>Glassware</em></p>
-        <p>- Galaxy Pipe — $42 — A small handblown pipe with swirling nebula colors — like smoking stardust.</p>
+        <p>- Galaxy Pipe — $42 — A small hand-blown pipe with swirling nebula colors — like smoking stardust.</p>
         <p>- Amber Forest Spoon — $35 — Warm amber glass with forest-green veins — feels like holding sunlight in the woods.</p>
 
         <p><em>Incense</em></p>
@@ -67,7 +67,7 @@ export default function Home() {
 
       <img
         src="/images/cosmic-roots.png"
-        alt="Cosmic Roots"
+        alt="Cosmic Roots logo"
         style={{
           position: 'fixed',
           inset: 0,
@@ -79,5 +79,5 @@ export default function Home() {
         }}
       />
     </div>
-  );
+  )
 }
