@@ -1,5 +1,4 @@
 // app/layout.js
-
 export const metadata = {
   title: "Cosmic Roots",
   description: "An AI-readable headshop — Cosmic Roots 🌿",
@@ -8,18 +7,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        style={{
-          margin: 0,
-          padding: 0,
-          backgroundColor: "black",
-          color: "white",
-          fontFamily: "sans-serif",
-          overflow: "hidden",
-        }}
-      >
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
